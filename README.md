@@ -15,40 +15,40 @@ Welcome to my **Daily Dose of HackerRank** — a fun and structured way to stren
 
 ## 📅 Dose Tracker
 
-| 💊 Dose | Topic                        | Status        |
-|--------:|-----------------------------|---------------|
-| Dose 1  | Arrays                      | ✅ In Progress |
-| Dose 2  | Strings                     | 🔄 Upcoming    |
-| Dose 3  | Hash Tables                 | ⏳ Planned     |
-| Dose 4  | Sorting                     | ⏳ Planned     |
-| Dose 5  | Recursion & Backtracking   | ⏳ Planned     |
-| Dose 6  | Trees                       | ⏳ Planned     |
-| Dose 7  | Graphs                      | ⏳ Planned     |
-| Dose 8  | Greedy & Dynamic Programming | ⏳ Planned     |
+| 💊 Dose | Topic                   | Progress | Level Covered                        |
+|--------|-------------------------|----------|--------------------------------------|
+| Dose 1 | Problem Solving         | ✅ 5/54   | 🟢 Basic, 🟡 Intermediate, 🔴 Advanced |
 
 ---
 
 ## 📂 Folder Structure
 
 \`\`\`bash
-💊 Dose X - Topic/
+📁 daily-dose-of-hackerrank
 │
-├── problem-name/
-│   ├── solution.py (or .cpp / .java etc.)
-│   └── README.md  # Problem description, link, approach, complexity
-\`\`\`
+├── 📄 README.md
+│
+├── 💊 Dose 1 - Problem Solving
+    ├── 🟢 Basic
+    │   ├── 📁 01_Solve_Me_First
+    │   │   ├── 📄 solution.py
+    │   │   └── 📄 README.md
+    │   ├── 📁 02_Simple_Array_Sum
+    │   └── ...
+    ├── 🟡 Intermediate
+    │   ├── 📁 
+    │   └── ...
+    └── 🔴 Advanced
+        └── ...
 
-Each **problem folder** includes:
-- ✅ Clean code with proper comments
+
 - ✅ A themed `README.md` with explanation, input/output, and complexity
 
 ---
 
-## 💬 Languages Used
+## 💬 Language Used
 
 - 🟣 Python (primary)
-- 🔵 C++
-- ☕ Java (occasionally)
 
 ---
 
@@ -71,5 +71,5 @@ Each **problem folder** includes:
 
 ---
 
-👩‍💻 **Maintained by:** [Rahi Patil]  
+👩‍💻 **Maintained by:** Rahi Patil 
 📅 **Started on:** April 7, 2025  
