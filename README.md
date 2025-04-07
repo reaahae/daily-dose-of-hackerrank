@@ -53,7 +53,7 @@ Welcome to my **Daily Dose of HackerRank** — a fun and structured way to stren
 
 ## 🔗 HackerRank Profile
 
-📌 [Click here to visit my HackerRank](https://www.hackerrank.com/your_username)
+📌 [Click here to visit my HackerRank](https://www.hackerrank.com/rahi_patil)
 
 ---
 
