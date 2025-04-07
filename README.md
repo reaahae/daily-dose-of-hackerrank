@@ -23,6 +23,7 @@ Welcome to my **Daily Dose of HackerRank** — a fun and structured way to stren
 
 ## 📂 Folder Structure
 
+```
 📁 daily-dose-of-hackerrank
 │
 ├── 📄 README.md
@@ -39,6 +40,7 @@ Welcome to my **Daily Dose of HackerRank** — a fun and structured way to stren
     │   └── ...
     └── 🔴 Advanced
         └── ...
+```
 
 
 - ✅ A themed `README.md` with explanation, input/output, and complexity
