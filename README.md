@@ -23,7 +23,6 @@ Welcome to my **Daily Dose of HackerRank** — a fun and structured way to stren
 
 ## 📂 Folder Structure
 
-\`\`\`bash
 📁 daily-dose-of-hackerrank
 │
 ├── 📄 README.md
