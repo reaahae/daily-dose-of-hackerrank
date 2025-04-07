@@ -28,11 +28,12 @@ Every **course** is a 💊 dose, every **difficulty** is an 🦠 illness, and ev
 
 ---
 
-## 📅 Dose Tracker
+### 💊 Dose Tracker
 
-| 💊 Dose | Topic                   | Progress | Level Covered                        |
-|--------|-------------------------|----------|--------------------------------------|
-| Dose 1 | Problem Solving         | ✅ 5/54   | 🟢 Basic, 🟡 Intermediate, 🔴 Advanced |
+| 💊 Dose No. | Course / Track Name              | Status     | 🦠 Illnesses Covered           | ⏳ Progress |
+|------------|----------------------------------|------------|-------------------------------|-------------|
+| Dose 1     | 1 Month Interview Prep Kit       | 🟢 Ongoing | Basic, Intermediate, Advanced | 1 / 54       |
+
 
 ---
 
@@ -53,7 +54,7 @@ Every **course** is a 💊 dose, every **difficulty** is an 🦠 illness, and ev
 │   │   └── ...
 │   └── 🦠 Illness 3 - Advanced
 │     └── ...
-|── 📘 The Code Doctor’s Manual.md
+|── 📘 README.md
 
 ```
 
@@ -81,3 +82,7 @@ Every **course** is a 💊 dose, every **difficulty** is an 🦠 illness, and ev
 
 👩‍💻 **Maintained by:** Rahi Patil 
 📅 **Started on:** April 7, 2025  
+
+---
+
+
