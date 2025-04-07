@@ -8,13 +8,13 @@ Every **course** is a 💊 dose, every **difficulty** is an 🦠 illness, and ev
 
 ## 🧪 Concept Structure
 
-| Theme            | Real-World Meaning         | Repo Element                          |
-|------------------|----------------------------|----------------------------------------|
-| 💊 Dose          | Course / Track             | `Dose 1 - 1 Month Interview Prep Kit` |
-| 🦠 Illness       | Difficulty level or topic  | `Illness 1 - Basic`                   |
-| 🗂️ Problem Case  | Problem folder             | `01_Solve_Me_First/`                  |
-| 📜 Prescription  | Problem statement          | `prescription.md`                     |
-| 💉 Cure          | Solution code              | `cure.py` or `cure.cpp`               |
+| Theme            | Real-World Meaning         |
+|------------------|----------------------------|
+| 💊 Dose          | Course / Track             |
+| 🦠 Illness       | Difficulty level or topic  | 
+| 🗂️ Problem Case  | Problem folder             |
+| 📜 Prescription  | Problem statement          |
+| 💉 Cure          | Solution code              | 
 
 ---
 
@@ -79,4 +79,4 @@ Every **course** is a 💊 dose, every **difficulty** is an 🦠 illness, and ev
 ---
 
 👩‍💻 **Maintained by:** Rahi Patil 
-> 📅 **Started on:** April 7, 2025  
+📅 **Started on:** April 7, 2025  
