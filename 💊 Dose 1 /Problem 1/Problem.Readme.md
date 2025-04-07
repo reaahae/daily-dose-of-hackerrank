@@ -30,13 +30,15 @@
 ### 🧪 Sample Input/Output
 
 ```
-
-### Sample Input
 Input:  
 Output:
 
-💻 Language Used
+---
+
+### 💻 Language Used
 💬 Python / C++ / Java / etc.
 
-📅 Solved on
+---
+
+### 📅 Solved on
 📆 Date
