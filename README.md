@@ -13,7 +13,7 @@ Every **course** is a 💊 dose, every **difficulty** is an 🦠 illness, and ev
 |------------------|----------------------------|
 | 💊 Dose          | Course / Track             |
 | 🦠 Illness       | Difficulty level or topic  | 
-| 🗂️ Problem Case  | Problem folder             |
+| 👤 Patient       | Problem folder             |
 | 📜 Prescription  | Problem statement          |
 | 💉 Cure          | Solution code              | 
 
@@ -43,16 +43,16 @@ Every **course** is a 💊 dose, every **difficulty** is an 🦠 illness, and ev
 📁 daily-dose-of-hackerrank
 │
 ├── 💊 Dose 1 - 1 Month Interview Prep Kit
-│   ├── 🦠 Illness 1 - Basic
-│   │   ├── 📁 01_Solve_Me_First
-│   │   │   ├── prescription.md
-│   │   │   └── 💉 cure.py
-│   │   └── 📁 02_Simple_Array_Sum
-│   │       ├── prescription.md
-│   │       └── 💉 cure.py
-│   ├── 🦠 Illness 2 - Intermediate
+│   ├── 🦠 Illness 1 - Problem Solving - Basic
+│   │   ├── 👤 Patient 01_Plus_Minus
+│   │   │   ├── 💉 cure.py
+│   │   │   └── 📜 prescription.md
+│   │   └── 👤 Patient 02_Mini-Max_Sum
+│   │       ├── 💉 cure.py
+│   │       └── 📜 prescription.md
+│   ├── 🦠 Illness 2 - Problem Solving - Intermediate
 │   │   └── ...
-│   └── 🦠 Illness 3 - Advanced
+│   └── 🦠 Illness 3 - Problem Solving - Advanced
 │     └── ...
 |── 📘 README.md
 
