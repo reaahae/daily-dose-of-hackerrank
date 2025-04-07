@@ -1,4 +1,6 @@
-# 💊 Dose 1.1 – Plus Minus
+# 📜 Prescription
+
+# 💊 Patient 01 – Plus Minus
 
 ### 📌 Problem Link  
 🔗 [Plus Minus – HackerRank]([https://](https://www.hackerrank.com/challenges/one-month-preparation-kit-plus-minus?isFullScreen=true&h_l=interview&playlist_slugs%5B%5D=preparation-kits&playlist_slugs%5B%5D=one-month-preparation-kit&playlist_slugs%5B%5D=one-month-week-one))
