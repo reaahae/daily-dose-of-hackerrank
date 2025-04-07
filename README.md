@@ -1,6 +1,7 @@
 # 💊 Daily Dose of HackerRank
 
 Welcome to my coding clinic! 🩺 - "A Daily Dose of HackerRank!!"
+
 This repo is a fun and structured way to strengthen my Data Structures and Algorithms (DSA) skills — structured like a medical treatment plan.  
 Every **course** is a 💊 dose, every **difficulty** is an 🦠 illness, and every **problem** is a case being treated.
 
