@@ -25,7 +25,7 @@ This challenge emphasizes precision handling, so results are validated up to six
 5. Each value must be displayed with 6 decimal places.
 
 📌 Constraints
-- 1 ≤ n ≤ 100
+- `1 ≤ n ≤ 100`
 - Each element in the array is between -100 and 100.
 
 ---
