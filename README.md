@@ -60,7 +60,7 @@ Every **course** is a 💊 dose, every **difficulty** is an 🦠 illness, and ev
 │   │   └── ...
 │   └── 🦠 Illness 3 - Problem Solving - Advanced
 │     └── ...
-|── 📘 README.md
+└── 📘 README.md
 
 ```
 
