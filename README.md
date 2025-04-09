@@ -32,7 +32,7 @@ Every **course** is a 💊 dose, every **difficulty** is an 🦠 illness, and ev
 
 | 💊 Dose No. | Course / Track Name              | Status     | 🦠 Illnesses Covered           | ⏳ Progress |
 |------------|----------------------------------|------------|-------------------------------|-------------|
-| Dose 1     | 1 Month Interview Prep Kit       | 🟢 Ongoing | Basic, Intermediate, Advanced | 1 / 54       |
+| Dose 1     | 1 Month Interview Prep Kit       | 🟢 Ongoing | Basic, Intermediate, Advanced | 4 / 54       |
 
 
 ---
