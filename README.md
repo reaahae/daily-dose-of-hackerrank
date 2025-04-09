@@ -47,9 +47,15 @@ Every **course** is a 💊 dose, every **difficulty** is an 🦠 illness, and ev
 │   │   ├── 👤 Patient 01_Plus_Minus
 │   │   │   ├── 💉 cure.py
 │   │   │   └── 📜 prescription.md
-│   │   └── 👤 Patient 02_Mini-Max_Sum
-│   │       ├── 💉 cure.py
-│   │       └── 📜 prescription.md
+│   │   ├── 👤 Patient 02_Mini-Max_Sum
+│   │   |   ├── 💉 cure.py
+|   |   |   └── 📜 prescription.m
+│   │   ├── 👤 Patient 03_Time_Conversion
+│   │   │   ├── 💉 cure.py
+│   │   │   └── 📜 prescription.md
+|   |   └── 👤 Patient 04_Sparse_Arrays
+│   |       ├── 💉 cure.py
+│   |       └── 📜 prescription.md
 │   ├── 🦠 Illness 2 - Problem Solving - Intermediate
 │   │   └── ...
 │   └── 🦠 Illness 3 - Problem Solving - Advanced
