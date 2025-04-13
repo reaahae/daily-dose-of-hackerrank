@@ -1,6 +1,6 @@
 # 📜 Prescription
 
-# 💊 Patient 05 – Lonely Integer
+# 💊 Patient 06 – Lonely Integer
 
 ### 📌 Problem Link  
 🔗 [Lonely Integer – HackerRank](https://www.hackerrank.com/challenges/one-month-preparation-kit-lonely-integer/problem?isFullScreen=true&h_l=interview&playlist_slugs%5B%5D=preparation-kits&playlist_slugs%5B%5D=one-month-preparation-kit&playlist_slugs%5B%5D=one-month-week-one)
