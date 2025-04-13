@@ -42,6 +42,22 @@ def flippingBits(n):
 
     return decimal
 
+#Soltion 2
+def flippingBits(n):
+    # Convert to 32-bit binary string
+    binary = bin(n)[2:].zfill(32)  # Strip '0b', then pad with leading zeros
+
+    # Flip the bits using one-liner
+    flipped = ''.join('1' if bit == '0' else '0' for bit in binary)
+
+    # Convert back to decimal
+    return int(flipped, 2)  # Convert binary string to integer
+
+#Solution 3
+def flippingBits(n):
+    # XOR with 32-bit all 1s (i.e., 0xFFFFFFFF or 4294967295)
+    return n ^ 0xFFFFFFFF  # Flips all bits in a 32-bit number
+
 if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')
 
