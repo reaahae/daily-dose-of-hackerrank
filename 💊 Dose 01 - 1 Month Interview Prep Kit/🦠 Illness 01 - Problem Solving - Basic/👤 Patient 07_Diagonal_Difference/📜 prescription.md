@@ -25,7 +25,7 @@ Given a square matrix, calculate the absolute difference between the sums of its
 
 ---
 
-### 🚀 Solution 1 (Initial Approach)
+### 🚀 Solution 1 - Using Nested Loops and Manual Index Tracking
 
 #### ✅ Approach
 Use nested loops to iterate through the matrix. Add elements on the primary diagonal where `i == j` and use a manual index counter to track the secondary diagonal.
@@ -48,7 +48,8 @@ It clearly separates how we access each diagonal and is easy to follow for begin
 
 ---
 
-### 🚀 Solution 2 (Optimized Approach)
+### 🚀 Solution 2 - Using Single Loop and Mathematical Indexing
+
 
 #### ✅ Approach
 Use a single loop to directly access both diagonals using mathematical indexing.
@@ -85,6 +86,7 @@ Input:
 
 Output:
 15
+
 ```
 
 ---
