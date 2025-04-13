@@ -26,30 +26,79 @@ You will be given a list of 32-bit unsigned integers. Flip all the bits (i.e., c
 
 ### 🚀 Approach
 
-📌 **Approach:**  
-Hardcoded bit manipulation using:
-- Manual binary conversion
-- Padding to 32-bit
-- Bit flipping logic using strings
-- Binary to decimal conversion (manually via loop)
+## ✅ Solution 1: Manual (Hardcoded) Bit Manipulation
 
-**Why this approach?**  
-- Reinforces understanding of binary arithmetic and bit manipulation.
+### 🚀 Approach
+- Manually convert the number to binary using division and modulus.
+- Pad the binary number to 32 bits by adding leading zeros.
+- Flip each bit one-by-one using conditional checks.
+- Convert the flipped binary back to a decimal integer manually using power of 2 logic.
 
-**Steps:**  
-1. Convert number to binary using modulus/division.
-2. Pad the result manually to 32 bits.
-3. Flip each bit using conditional logic.
-4. Convert the new binary string back to decimal using positional power multiplication.
+### 🤔 Why this approach?
+- Good for learning the basics of bit manipulation.
+- No use of built-in functions — reinforces understanding of binary arithmetic.
+- Useful for educational or interview contexts where understanding matters more than speed.
+
+### 🧩 Steps
+1. Convert the number to binary using `%` and `//`.
+2. Add leading zeros until length becomes 32.
+3. Flip each bit (`'0' -> '1'` and `'1' -> '0'`).
+4. Convert the new binary string to decimal using loop and powers of 2.
+
+### ⏱️ Time & Space Complexity
+| Metric        | Value      |
+|---------------|------------|
+| 🕒 Time        | O(32)      |
+| 🧠 Space       | O(32)      |
 
 ---
 
-### 🧮 Time & Space Complexity
+## ✅ Solution 2: Using Python Built-ins (Semi-Manual)
 
+### 🚀 Approach
+- Use `bin()` to convert the number to binary.
+- Pad the binary string to 32 bits using `zfill()`.
+- Flip the bits using a one-liner comprehension.
+- Convert the binary string back to an integer using `int(..., 2)`.
+
+### 🤔 Why this approach?
+- Uses minimal built-in functions for cleaner, more readable code.
+- Good trade-off between control and performance.
+- Easier to implement and debug.
+
+### 🧩 Steps
+1. Convert `n` to binary string: `bin(n)[2:]`.
+2. Use `.zfill(32)` to ensure 32-bit representation.
+3. Flip all bits using a generator expression.
+4. Convert flipped binary back to decimal.
+
+### ⏱️ Time & Space Complexity
 | Metric        | Value      |
 |---------------|------------|
-| 🕒 Time        | `O(32)`    |  
-| 🧠 Space       | `O(32)`    |
+| 🕒 Time        | O(32)      |
+| 🧠 Space       | O(32)      |
+
+---
+
+## ✅ Solution 3: Bitwise XOR (Most Efficient)
+
+### 🚀 Approach
+- Use the XOR operator `^` with `0xFFFFFFFF` to flip all 32 bits of the number.
+
+### 🤔 Why this approach?
+- Fastest and most efficient method for this specific problem.
+- Minimal memory usage, ideal for large input sizes.
+- One-liner — perfect for production-grade code or competitive programming.
+
+### 🧩 Steps
+1. XOR the number with `0xFFFFFFFF` (i.e., 4294967295 in decimal).
+2. The result will be the flipped 32-bit version of `n`.
+
+### ⏱️ Time & Space Complexity
+| Metric        | Value      |
+|---------------|------------|
+| 🕒 Time        | O(1)       |
+| 🧠 Space       | O(1)       |
 
 ---
 
