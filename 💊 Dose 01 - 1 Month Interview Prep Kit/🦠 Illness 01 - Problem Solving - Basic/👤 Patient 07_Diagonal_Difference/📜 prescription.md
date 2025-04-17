@@ -75,6 +75,34 @@ Use a single loop to directly access both diagonals using mathematical indexing.
 
 ---
 
+### 📘 Concepts Learnt
+
+- ✅ **Matrix Traversal in Python**  
+  Iterating through a 2D list (matrix) using nested loops helps access elements row by row and column by column.  
+  📌 **Usage**: Looping with `for i in range(len(arr))` helps target each row.
+
+- ✅ **Primary Diagonal Identification**  
+  In a square matrix, the primary diagonal elements have equal row and column indices: `arr[i][i]`.
+
+- ✅ **Secondary Diagonal Identification**  
+  For the secondary diagonal, the column index decreases as the row index increases: `arr[i][n - 1 - i]`.
+
+- ✅ **Index Manipulation**  
+  Managing indices effectively (like decrementing or calculating `n - 1 - i`) is key to accessing the correct elements diagonally.
+
+- ✅ **Absolute Difference Calculation**  
+  `abs(x - y)` is a built-in Python function used to calculate the non-negative difference between two values.  
+  📌 **Usage**: Required to return the final answer per problem specification.
+
+- ✅ **Code Optimization (Solution 2)**  
+  Avoiding nested loops and using single-loop index math improves readability and performance.  
+  📌 **Example**: `arr[i][n - 1 - i]` instead of maintaining a separate `index` variable.
+
+- ✅ **Cleaner Variable Management**  
+  Using meaningful variable names (`diag1`, `diag2`) and initializing once reduces overhead and enhances clarity.
+
+---
+
 ### 🧪 Sample Input/Output
 
 ```
