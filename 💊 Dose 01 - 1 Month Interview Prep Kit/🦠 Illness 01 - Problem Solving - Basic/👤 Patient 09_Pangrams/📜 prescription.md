@@ -71,6 +71,27 @@ Track seen letters as you iterate through the string. Exit early if all 26 lette
 
 ---
 
+### 📘 Concepts Learnt
+
+- ✅ **Set in Python**  
+  A `set` is an unordered collection of unique elements. It is ideal for membership testing and eliminating duplicates.  
+  📌 **Usage**: Used to track distinct letters in the sentence.
+
+- ✅ **string.ascii_lowercase**  
+  From the `string` module, this gives a string of all lowercase English letters (`'abcdefghijklmnopqrstuvwxyz'`).  
+  📌 **Usage**: Helps compare whether the sentence covers the full alphabet.
+
+- ✅ **Early Exit Strategy**  
+  To enhance performance, especially for large inputs, the program stops checking once all 26 letters have been found.
+
+- ✅ **Membership Check (`in`)**  
+  Efficiently checks whether a letter is in a set. This operation runs in average O(1) time.
+
+- ✅ **Lowercasing Strings**  
+  Ensures case-insensitive comparisons since both uppercase and lowercase letters are treated the same in pangrams.
+
+---
+
 ### 🧪 Sample Input/Output
 
 ```
