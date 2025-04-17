@@ -51,6 +51,32 @@ Use a fixed-size list of 100 elements initialized to 0 and increment the count a
 
 ---
 
+### 📘 Concepts Learnt
+
+- ✅ **Counting Sort Basics**  
+  Counting sort is an integer sorting algorithm suitable when the range of input values is known and limited.  
+  📌 **Usage**: Instead of sorting directly, it counts occurrences of each number and reconstructs the sorted result.
+
+- ✅ **Frequency Array**  
+  A fixed-size list is used to track how many times each value (0 to 99) appears.  
+  📌 **Example**: `result[5] = 3` means the number `5` appears 3 times.
+
+- ✅ **List Initialization in Python**  
+  `result = [0] * 100` creates a list of 100 zeros efficiently.  
+  📌 **Why**: Prevents manual or loop-based initialization.
+
+- ✅ **In-Place Counting with Indexing**  
+  Accessing list elements by index (e.g., `result[i] += 1`) is fast and constant time.  
+  📌 **Advantage**: No need for nested loops or complex logic.
+
+- ✅ **Space-Time Tradeoff**  
+  Counting sort uses extra space (O(k) where k is the range of values) to achieve better time complexity (O(n)).
+
+- ✅ **Zero-Based Indexing**  
+  The input values are assumed to be in the range [0, 99], making it ideal to use them directly as indices in the frequency array.
+
+---
+
 ### 🧪 Sample Input/Output
 
 ```
