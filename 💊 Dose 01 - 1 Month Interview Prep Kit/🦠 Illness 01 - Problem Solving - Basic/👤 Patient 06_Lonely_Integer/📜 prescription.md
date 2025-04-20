@@ -51,6 +51,31 @@ Use **bitwise XOR** to find the unique element.
 
 ---
 
+### 📘 Concepts Learnt
+
+- ✅ **Bitwise XOR and Its Properties**  
+  Mastered how XOR can be leveraged to detect the unique element in an array where every other element appears twice:
+  - `x ^ x = 0`
+  - `x ^ 0 = x`  
+  📌 This makes it a great fit for problems with paired elements and a single outlier.
+
+- ✅ **Space-Efficient Algorithm**  
+  Solved the problem using only a single integer variable (`unique`) — no extra lists, sets, or dictionaries used.  
+  📌 Efficient for both memory and time.
+
+- ✅ **Minimalist Python Logic**  
+  Wrote a fully functional solution in just a few lines without compromising on clarity or correctness.  
+  📌 Showcased the power of Python when combined with bitwise logic.
+
+- ✅ **Mathematical Thinking over Brute Force**  
+  Avoided brute-force counting or sorting approaches.  
+  📌 Choose a mathematical bit manipulation method which scales better.
+
+- ✅ **Interview-Ready Insight**  
+  Practiced a common interview question with a classic XOR trick that often appears in technical rounds.
+
+---
+
 ### 🧪 Sample Input/Output
 
 ```
