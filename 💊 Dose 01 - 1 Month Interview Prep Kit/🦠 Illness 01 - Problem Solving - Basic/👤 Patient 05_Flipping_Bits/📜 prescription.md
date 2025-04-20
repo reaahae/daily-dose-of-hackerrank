@@ -102,6 +102,40 @@ You will be given a list of 32-bit unsigned integers. Flip all the bits (i.e., c
 
 ---
 
+### 📘 Concepts Learnt
+
+- ✅ **Binary Representation Basics**  
+  Learned how to manually convert decimal numbers to binary and back, reinforcing core binary arithmetic concepts.  
+  📌 Manually handled `% 2`, `// 2`, and `2^i` conversions.
+
+- ✅ **Bit Flipping Logic**  
+  Understood how to invert binary digits — `0` becomes `1`, and `1` becomes `0`.  
+  📌 Applied through string manipulation and bitwise logic.
+
+- ✅ **Use of Built-in Python Functions (`bin`, `zfill`, `int`)**  
+  Discovered how Python simplifies binary operations with:
+  - `bin(n)` for binary conversion.
+  - `.zfill(32)` for ensuring 32-bit length.
+  - `int(binary_str, 2)` for converting binary back to decimal.
+
+- ✅ **List Comprehension & String Joining for Transformation**  
+  Flipping bits using `''.join('1' if bit == '0' else '0' for bit in binary)` — a concise, Pythonic way to transform strings.
+
+- ✅ **Bitwise XOR Operator (^) Mastery**  
+  Learned that XORing a number with all 1s (`0xFFFFFFFF`) flips all its bits.  
+  📌 Most efficient and elegant solution for bit manipulation tasks.
+
+- ✅ **When and Why to Use Bitwise Operations**  
+  Appreciated how bitwise operations can significantly optimize performance for fixed-width integer tasks (like 32-bit flipping).
+
+- ✅ **Comparative Analysis of Multiple Solutions**  
+  Explored and compared:
+  - Manual method (for clarity and learning).
+  - Python built-ins (for clean readability).
+  - XOR logic (for optimal efficiency).
+
+---
+
 ### 🧪 Sample Input/Output
 
 ```
