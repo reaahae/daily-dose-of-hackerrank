@@ -53,6 +53,28 @@ Use Python’s `collections.Counter` to count frequencies of strings and quickly
 
 ---
 
+### 📘 Concepts Learnt
+
+- ✅ **Using `collections.Counter` for Frequency Counting**  
+  `Counter` provides an elegant way to count occurrences of items in a list.  
+  📌 **Usage**: `Counter(strings)` builds a dictionary-like object where keys are strings and values are their frequencies.
+
+- ✅ **Optimized Query Lookup**  
+  Instead of looping through the list for every query (which would be `O(n*q)`), we use a precomputed frequency map for constant-time access.  
+  📌 **Access**: `string_counter[x]` gives the count in `O(1)`.
+
+- ✅ **List Comprehension for Efficient Iteration**  
+  Used to build the result list concisely and efficiently.  
+  📌 Example: `[string_counter[x] for x in queries]`
+
+- ✅ **Default Value Handling with `Counter`**  
+  If a queried string is not in the original list, `Counter` returns `0` automatically — no need for `if` conditions.
+
+- ✅ **Clean Separation of Logic**  
+  Logic is wrapped in a reusable function returning data (not printing), supporting testability and modularity.
+
+---
+
 ### 🧪 Sample Input/Output
 
 ```
