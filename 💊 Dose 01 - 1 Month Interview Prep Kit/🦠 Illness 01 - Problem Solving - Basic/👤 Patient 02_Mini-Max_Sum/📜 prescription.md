@@ -82,6 +82,38 @@ We use the fact that to get the **minimum sum**, we can subtract the most signif
 
 ---
 
+### 📘 Concepts Learnt
+
+- ✅ **Array Sorting in Python**  
+  The `sorted()` function returns a new sorted list, making it easy to access smallest and largest values directly.  
+  📌 **Usage**: `sorted(arr)` for arranging the array in ascending order.
+
+- ✅ **List Slicing**  
+  Python’s slicing syntax allows quick selection of sublists.  
+  📌 **Usage**: `arr[:4]` gets the first 4 elements; `arr[-4:]` gets the last 4 elements after sorting.
+
+- ✅ **Built-in Aggregation Functions**  
+  Python’s `sum()`, `max()`, and `min()` provide fast and readable ways to compute totals and boundaries.  
+  📌 **Usage**: `sum(arr)` for total, `max(arr)` to get the largest number, `min(arr)` to get the smallest.
+
+- ✅ **Alternative Optimization Techniques**  
+  Using `sum(arr) - max(arr)` and `sum(arr) - min(arr)` avoids the need to sort.  
+  📌 **Usage**: Reduces time complexity from `O(n log n)` to `O(n)`.
+
+- ✅ **Print Formatting**  
+  Python’s `print(a, b)` prints space-separated values in a single line.  
+  📌 **Usage**: Clean output without needing string concatenation.
+
+- ✅ **Time & Space Complexity Optimization**  
+  Knowing when to avoid sorting (if not required) helps achieve better performance in large-scale problems.  
+  📌 **Usage**: `Solution 2` leverages this idea for optimal performance.
+
+- ✅ **Working with Large Integers**  
+  Recognizing that values can exceed 32-bit integer range, especially when using 10⁹, and relying on Python's native arbitrary-precision integers.  
+  📌 **Usage**: No special data types needed in Python, but awareness is crucial for other languages.
+
+---
+
 ### 🧪 Sample Input/Output
 
 ```
