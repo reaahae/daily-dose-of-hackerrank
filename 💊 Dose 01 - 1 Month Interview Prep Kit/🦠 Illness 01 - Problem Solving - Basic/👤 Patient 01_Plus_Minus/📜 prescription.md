@@ -50,6 +50,38 @@ Steps:
 
 ---
 
+### 📘 Concepts Learnt
+
+- ✅ **List Comprehension & Generator Expressions**  
+  Using concise generator expressions inside `sum()` helps count values based on conditions without extra variables or loops.  
+  📌 **Usage**: `sum(1 for x in arr if x > 0)` to count positives.
+
+- ✅ **Conditional Counting in Python**  
+  Efficient filtering and counting of positives, negatives, and zeroes using conditionals in-line.  
+  📌 **Usage**: Filtering elements directly within the summation logic improves clarity.
+
+- ✅ **Ratio Calculation**  
+  Calculating proportions by dividing each count by the total length of the array ensures accurate percentage-like outputs.  
+  📌 **Usage**: `count / len(arr)` for each category.
+
+- ✅ **Floating Point Formatting**  
+  Using Python's `f"{value:.6f}"` format string to precisely control decimal output (6 digits after the decimal point).  
+  📌 **Usage**: Ensures output matches the required format, crucial for test case validation.
+
+- ✅ **Output Precision Requirements**  
+  Understanding the importance of output formatting when problems specify exact decimal requirements.  
+  📌 **Usage**: Avoids issues caused by floating point rounding inconsistencies.
+
+- ✅ **Clean Code Practices**  
+  Separating logic into steps—counting, calculating, formatting, and printing—makes the function clean, modular, and easy to debug.  
+  📌 **Usage**: `output_array` stores all results before printing, improving structure.
+
+- ✅ **Time & Space Complexity Awareness**  
+  Recognizing that operations use a single pass (O(n)) and constant space (O(1) extra memory) for high performance on large inputs.  
+  📌 **Usage**: Optimized approach for arrays up to size 100 per problem constraints.
+
+---
+
 ### 🧮 Time & Space Complexity
 
 | Metric        | Value     |
