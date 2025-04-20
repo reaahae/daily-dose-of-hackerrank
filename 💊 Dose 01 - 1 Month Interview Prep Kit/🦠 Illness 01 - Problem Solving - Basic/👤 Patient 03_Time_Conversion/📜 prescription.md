@@ -51,6 +51,31 @@ Use Python’s built-in `datetime` module to parse the 12-hour formatted time an
 
 ---
 
+### 📘 Concepts Learnt
+
+- ✅ **Datetime Module in Python**  
+  Leveraging the `datetime` module simplifies complex time format transformations.  
+  📌 **Usage**: `datetime.strptime()` parses string to datetime object; `strftime()` formats it back.
+
+- ✅ **12-hour to 24-hour Format Conversion**  
+  Python’s `strptime` with format `"%I:%M:%S%p"` interprets 12-hour time with AM/PM.  
+  📌 **Usage**: `%I` = hour (12-hour), `%p` = AM/PM, `%H` = hour (24-hour).
+
+- ✅ **Code Simplicity via Built-in Functions**  
+  Instead of manually splitting strings and applying conditions for AM/PM, built-ins handle edge cases like `12AM` → `00`.
+
+- ✅ **Return vs Print in Function Design**  
+  Returning a string from the function (`return datetime...`) keeps logic separate from I/O, enabling better testability and reuse.  
+  📌 **Good Practice**: Always separate computation from I/O.
+
+- ✅ **Handling Edge Cases**  
+  For example:  
+  - `12:00:00AM` → `00:00:00`  
+  - `12:00:00PM` → `12:00:00`  
+  Built-in parsing ensures such cases are correctly handled without manual logic.
+
+---
+
 ### 🧪 Sample Input/Output
 
 ```
