@@ -50,6 +50,15 @@ Steps:
 
 ---
 
+### 🧮 Time & Space Complexity
+
+| Metric        | Value     |
+|---------------|-----------|
+| 🕒 Time        | `O(n)`    |
+| 🧠 Space       | `O(1)`    |
+
+---
+
 ### 📘 Concepts Learnt
 
 - ✅ **List Comprehension & Generator Expressions**  
@@ -79,15 +88,6 @@ Steps:
 - ✅ **Time & Space Complexity Awareness**  
   Recognizing that operations use a single pass (O(n)) and constant space (O(1) extra memory) for high performance on large inputs.  
   📌 **Usage**: Optimized approach for arrays up to size 100 per problem constraints.
-
----
-
-### 🧮 Time & Space Complexity
-
-| Metric        | Value     |
-|---------------|-----------|
-| 🕒 Time        | `O(n)`    |
-| 🧠 Space       | `O(1)`    |
 
 ---
 
