@@ -85,7 +85,7 @@ We use the fact that to get the **minimum sum**, we can subtract the most signif
 ### 📘 Concepts Learnt
 
 - ✅ **Array Sorting in Python**  
-  The `sorted()` function returns a new sorted list, making it easy to access smallest and largest values directly.  
+  The `sorted()` function returns a new sorted list, making it easy to access the smallest and largest values directly.  
   📌 **Usage**: `sorted(arr)` for arranging the array in ascending order.
 
 - ✅ **List Slicing**  
